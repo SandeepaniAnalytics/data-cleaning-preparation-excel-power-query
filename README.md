@@ -47,21 +47,6 @@ The purpose of this cleaning process is to ensure the dataset is trustworthy bef
 
 ---
 
-## 🗂️ Repository Structure
-
-```
-├── data/
-│   ├── raw/
-│   │   └── Dataset.csv              
-│   └── cleaned/
-│       └── Cleaned_Data.xlsx     
-├── docs/
-│   └── Data_Cleaning_Report.pdf    
-└── README.md
-```
-
----
-
 ## 🧰 Tools Used
 
 - **Microsoft Excel**

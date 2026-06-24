@@ -28,22 +28,12 @@ The purpose of this cleaning process is to ensure the dataset is trustworthy bef
 
 ## 🛠️ Data Cleaning Process
 
-| Step | Action | Result |
-|---|---|---|
-| 1️⃣ Dataset Overview | Reviewed structure, 1,200 rows × 14 columns | Confirmed `OrderID` and `TrackingNumber` fully unique |
-| 2️⃣ Duplicate Check | Scanned full dataset for duplicate observations | **0 duplicates found** |
-| 3️⃣ Data Type Validation | Verified type of every column in Power Query | All columns correctly typed (text, date, numeric) |
-| 4️⃣ Missing Value Treatment | Found **309 blank `CouponCode`** values (~25.8%) | Replaced with explicit label **`No Coupon`** instead of deleting rows |
-| 5️⃣ Text Standardization | Cleaned text fields for consistent casing/formatting | Standardized across all text columns |
 
----
-
-## 📊 Key Results
-
-- ✅ 1,200 records preserved
-- ✅ 0 duplicate OrderIDs
-- ✅ 0 missing values after cleaning (down from 309)
-- ✅ 100% of records retained through cleaning
+-  **Dataset Overview** - Reviewed structure, 1,200 rows × 14 columns → Confirmed `OrderID` and `TrackingNumber` fully unique
+-  **Duplicate Check** - Scanned full dataset for duplicate observations → **0 duplicates found**
+-  **Data Type Validation** - Verified type of every column in Power Query → All columns correctly typed (text, date, numeric)
+-  **Missing Value Treatment** - Found **309 blank `CouponCode`** values (~25.8%) → Replaced with explicit label **`No Coupon`** instead of deleting rows
+-  **Text Standardization** - Cleaned text fields for consistent casing/formatting → Standardized across all text columns
 
 ---
 
